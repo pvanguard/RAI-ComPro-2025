@@ -17,16 +17,16 @@ int main(){
     if (avg >= 80){
         grade = 'A';
     }
-    if (avg >= 70 && avg < 80){
+    else if (avg >= 70 && avg < 80){
         grade = 'B';
     }
-    if (avg >= 70 && avg < 60){
+    else if (avg >= 70 && avg < 60){
         grade = 'C';
     }
-    if (avg >= 60 && avg < 50){
+    else if (avg >= 60 && avg < 50){
         grade = 'D';
     }
-    if (avg < 50){
+    else (avg < 50){
         grade = 'F';
     }
     printf("%s, your average is %.2f. You got grade %c \n",name,avg,grade);
